@@ -1,0 +1,53 @@
+
+
+.anime-info-slider {
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    z-index: 1;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+    .anime-info-slider {
+        top: 200px;
+    }
+  }
+  /* @media only screen and (max-width: 990px) {
+    .anime-info-slider {
+        top: 150px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .anime-info-slider {
+        top: 100px;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+    }
+    .name-anime , .amount-anime-slider, .descrip-anime-slider {
+        font-size: 10px !important;
+        
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .anime-info-slider {
+        top: 50px;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+    }
+    .name-anime , .amount-anime-slider, .descrip-anime-slider {
+        font-size: 10px !important;
+        
+    }
+  } */
+  @media only screen and (max-width: 1200px) {
+    .container.slider{
+     display: none;
+    }
+  }

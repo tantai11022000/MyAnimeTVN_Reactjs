@@ -1,0 +1,170 @@
+
+
+.wrap-content {
+    background-color: blanchedalmond;
+}
+
+
+.anime-item-carousel {
+    padding: 20px 15px 20px 15px;
+    background-color: white;
+}
+
+.carousel-setup {
+    background-color: black !important; width: 3% !important;
+}
+
+.img-item-carousel {
+    max-width: 100%;
+    max-height: 100%;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.time-item {
+    position: absolute;
+    top: 170px;
+    background-color: rgba(0, 117, 195, .9);
+    color: white;
+    border-radius: 5px;
+    margin: 0 0 2px 5px;
+}
+
+.name-anime-item {
+    margin-top: 5px;
+    border-top: 1px solid black;
+}
+
+.item-anime{
+    padding-top: 20px;
+    box-shadow:0 0 4px #999;
+    background-color: #fff;
+    margin-left: 30px;
+}
+
+
+.all-anime {
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.anime-list {
+    padding-bottom: 20px;
+}
+
+.anime-list-item{
+    box-shadow:0 0 4px #999;
+    background-color: #fff;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.amount-view {
+    position: absolute;
+    top: 20px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+   
+}
+
+.time-run {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    right:15px;
+    background-color: red;
+}
+
+.anime-list-item {
+    padding-top: 20px
+}
+
+.myTabItem {
+    font-size: 13px;
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+}
+
+.rank-anime-item {
+    border-bottom: 2px solid white;
+    list-style-type: none;
+    padding-top: 20px;
+    margin-left: -35px;
+    height: 200px;
+}
+
+.rank--anime-img {
+    width: 90px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.rank-anime {
+    background-color: red;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 32px;
+    line-height: 32px;
+    margin: 28px 0 0;
+    text-align: center;
+    width: 32px;
+    color: #fff;
+    
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+}
+
+.rank-name-anime {
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .time-item  {
+      top: 170px;
+      font-size: 10px;
+  }
+  .wrap-item-dropdown {
+      width: 500px !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+    .left-main-container {
+        float: none !important;
+        width: 100% !important;
+    }
+    .right-main-container {
+        float: none !important;
+        width: 100% !important;
+    }
+    .item-anime {
+        margin-left: 0px;
+    }
+}
+
+
+  @media only screen and (max-width: 770px) {
+    .time-item { 
+        top: 170px;
+        font-size: 10px;
+        left: 10px;
+    }
+    .name-anime-item {
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .item-anime {
+        margin-left: 0px;
+    }
+    .anime-list-item {
+        margin-left: 25px;
+    }
+}

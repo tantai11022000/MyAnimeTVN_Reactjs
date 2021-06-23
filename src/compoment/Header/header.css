@@ -1,0 +1,59 @@
+
+
+#SearchBarAnime {
+    border-radius: 10px;
+    height: 100%;
+    margin-top: 10px;
+}
+#header {
+    background-color: black;
+}
+.btn {
+    background: url(https://animetvn.com/images/spotlight.png) left top no-repeat;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 32px;
+    position: sticky;
+    width: 32px;
+    top: 10px;
+  
+}
+.wrap-nav-menu {
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.navobj {
+    color: white;
+    padding: 0 10px;
+}
+
+.navobj:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: green;
+}
+
+.nav-item {
+    height: 40px;
+}
+
+
+.menu-anime-season {
+    background-color:#20313e;
+    color: white;
+    /* align-items: center; */
+}
+.anime-season-item:hover {
+    background-color: orange;
+    
+}
+.left {
+    left: -100px;
+    
+}
